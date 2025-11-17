@@ -1,4 +1,4 @@
-# XSS Learning Project --- Secure Input Handling
+# XSS Learning Project --> Secure Input Handling
 
 This project is a simple Node.js + Express application created to
 demonstrate **Cross-Site Scripting (XSS)** vulnerabilities and how to
@@ -10,22 +10,21 @@ attacks.
 
 ## Features
 
-- Comment/discussion page\
-- Demonstration of XSS vulnerabilities\
-- Sanitized user input using the `xss` library\
-- Stores comments in MongoDB\
-- Switch easily between **vulnerable** and **secure** mode\
+- Comment/discussion page
+- Demonstration of XSS vulnerabilities
+- Sanitized user input using the `xss` library
+- Stores comments in MongoDB
+- Switch easily between **vulnerable** and **secure** mode
 - Beginner-friendly structure for learning web security
 
 ---
 
 ## Tech Stack
 
-- **Node.js** -- Server runtime\
-- **Express.js** -- Backend framework\
-- **MongoDB** -- For storing comments\
-- **xss** -- Sanitization library\
-- **EJS** -- Templating engine\
+- **Node.js** -- Server runtime
+- **Express.js** -- Backend framework
+- **MongoDB** -- For storing comments
+- **EJS** -- Templating engine
 
 ## Installation & Setup
 
@@ -102,7 +101,7 @@ text: req.body.comment,
 
 ---
 
-### ✂️ 2. Remove escaping in EJS (`views/discussion.ejs`)
+### 2. Remove escaping in EJS (`views/discussion.ejs`)
 
 Replace:
 
@@ -128,7 +127,7 @@ Enter this as a comment:
 </script>
 ```
 
-- Sanitization ON → harmless\
+- Sanitization ON → harmless
 - Sanitization OFF → script executes
 
 ---
@@ -149,8 +148,8 @@ This escapes malicious scripts and HTML before rendering.
 
 ## Contributing
 
-- Add more XSS demos\
-- Improve UI\
+- Add more XSS demos
+- Improve UI
 - Add more security examples
 
 PRs are welcome!
